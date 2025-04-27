@@ -34,3 +34,12 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
     });
 });
 
+
+
+echo "# Email_Sender" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vardhan998997/Email_Sender.git
+git push -u origin main
